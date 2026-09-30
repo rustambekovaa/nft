@@ -1,0 +1,91 @@
+@media(max-width:960px) {
+    .section1 {
+        .text_foto {
+            .text_sec1 {
+                h1 {
+                    font-family: Work Sans;
+                    font-weight: 600;
+                    font-style: SemiBold;
+                    font-size: 38px;
+                    line-height: 120%;
+                    letter-spacing: 0%;
+                    vertical-align: middle;
+                    text-transform: capitalize;
+
+                }
+
+                .nft {
+                    font-family: Work Sans;
+                    font-weight: 400;
+                    font-style: Regular;
+                    font-size: 16px;
+                    line-height: 140%;
+                    letter-spacing: 0%;
+
+                }
+
+                .sales {
+                    .sale1 {
+                        h1 {
+                            font-family: Space Mono;
+                            font-weight: 700;
+                            font-style: Bold;
+                            font-size: 22px;
+                            line-height: 160%;
+                            letter-spacing: 0%;
+                            vertical-align: middle;
+                            text-transform: capitalize;
+
+                        }
+
+                        p {
+                            font-family: Work Sans;
+                            font-weight: 400;
+                            font-style: Regular;
+                            font-size: 16px;
+                            line-height: 140%;
+                            letter-spacing: 0%;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:620px) {
+    .section1 {
+        .text_foto {
+            flex-direction: column;
+            .text_sec1 {
+
+                .nft {
+                    font-family: Work Sans;
+                    font-weight: 400;
+                    font-style: Regular;
+                    font-size: 16px;
+                    line-height: 140%;
+                    letter-spacing: 0%;
+                   margin: 10px 0px 0px 0px;
+
+                }
+                button{
+                    max-width: 510px;
+                    width: 100%;
+                    justify-content: center;
+                }
+
+               
+            }
+
+            .foto_sec1{
+                display: none;
+            }
+            .foto2_sec1{
+                display: block;
+                margin: 40px 0px;
+            }
+        }
+    }
+}
